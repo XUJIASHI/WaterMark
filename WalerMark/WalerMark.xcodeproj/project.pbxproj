@@ -15,6 +15,7 @@
 		D1CA3ECE1DD09E570087DB24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CA3ECC1DD09E570087DB24 /* LaunchScreen.storyboard */; };
 		D1CA3ED71DD09F590087DB24 /* UIImage+Watermark.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CA3ED61DD09F590087DB24 /* UIImage+Watermark.m */; };
 		D1CA3ED91DD09F810087DB24 /* psb.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D1CA3ED81DD09F810087DB24 /* psb.jpeg */; };
+		D1CA3EDB1DD0A3A80087DB24 /* effect.png in Resources */ = {isa = PBXBuildFile; fileRef = D1CA3EDA1DD0A3A80087DB24 /* effect.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		D1CA3ED51DD09F590087DB24 /* UIImage+Watermark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Watermark.h"; sourceTree = "<group>"; };
 		D1CA3ED61DD09F590087DB24 /* UIImage+Watermark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Watermark.m"; sourceTree = "<group>"; };
 		D1CA3ED81DD09F810087DB24 /* psb.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = psb.jpeg; sourceTree = "<group>"; };
+		D1CA3EDA1DD0A3A80087DB24 /* effect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = effect.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		D1CA3EBD1DD09E570087DB24 /* WalerMark */ = {
 			isa = PBXGroup;
 			children = (
+				D1CA3EDA1DD0A3A80087DB24 /* effect.png */,
 				D1CA3ED81DD09F810087DB24 /* psb.jpeg */,
 				D1CA3ED51DD09F590087DB24 /* UIImage+Watermark.h */,
 				D1CA3ED61DD09F590087DB24 /* UIImage+Watermark.m */,
@@ -147,6 +150,7 @@
 			files = (
 				D1CA3ECE1DD09E570087DB24 /* LaunchScreen.storyboard in Resources */,
 				D1CA3ED91DD09F810087DB24 /* psb.jpeg in Resources */,
+				D1CA3EDB1DD0A3A80087DB24 /* effect.png in Resources */,
 				D1CA3ECB1DD09E570087DB24 /* Assets.xcassets in Resources */,
 				D1CA3EC91DD09E570087DB24 /* Main.storyboard in Resources */,
 			);
@@ -313,6 +317,7 @@
 				D1CA3ED41DD09E570087DB24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
