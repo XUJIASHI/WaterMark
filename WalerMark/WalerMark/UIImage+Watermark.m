@@ -43,7 +43,7 @@
     [self drawInRect:CGRectMake(0, 0, self.size.width, self.size.height)];
 //    [self drawInRect:CGRectMake(0, 0, self.size.width, self.size.height)];
     //绘制文字
-    [text drawAtPoint:CGPointMake(10, 10) withAttributes:@{NSForegroundColorAttributeName: [UIColor redColor],NSFontAttributeName: [UIFont fontWithName:@"Snell Roundhand" size:40]}];
+    [text drawAtPoint:CGPointMake(10, 10) withAttributes:@{NSForegroundColorAttributeName: [UIColor redColor],NSFontAttributeName: [UIFont fontWithName:fontname size:fontsize]}];
     //获取当前上下文的图片
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     //关闭当前上下文

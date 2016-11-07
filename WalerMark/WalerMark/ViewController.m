@@ -22,7 +22,7 @@
     UIImageView *imageView = [[UIImageView alloc] init];
     imageView.bounds = CGRectMake(0, 0, 200, 300);
     imageView.center = self.view.center;
-    imageView.image = [[UIImage imageNamed:@"psb.jpeg"] watermarkWithText:@"@copyright walter" andFontname:nil andFontsize:40] ;
+    imageView.image = [[UIImage imageNamed:@"psb.jpeg"] watermarkWithText:@"@copyright walter" andFontname:@"Snell Roundhand" andFontsize:40] ;
     [self.view addSubview:imageView];
 }
 
