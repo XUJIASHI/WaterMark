@@ -17,6 +17,6 @@
  *
  *  @return <#return value description#>
  */
-- (UIImage *)watermarkWithText:(NSString *)text;
+- (UIImage *)watermarkWithText:(NSString *)text andFontname:(NSString *)fontname andFontsize:(NSUInteger)fontsize;
 
 @end
