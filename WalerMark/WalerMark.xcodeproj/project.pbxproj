@@ -13,6 +13,8 @@
 		D1CA3EC91DD09E570087DB24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CA3EC71DD09E570087DB24 /* Main.storyboard */; };
 		D1CA3ECB1DD09E570087DB24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1CA3ECA1DD09E570087DB24 /* Assets.xcassets */; };
 		D1CA3ECE1DD09E570087DB24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CA3ECC1DD09E570087DB24 /* LaunchScreen.storyboard */; };
+		D1CA3ED71DD09F590087DB24 /* UIImage+Watermark.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CA3ED61DD09F590087DB24 /* UIImage+Watermark.m */; };
+		D1CA3ED91DD09F810087DB24 /* psb.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D1CA3ED81DD09F810087DB24 /* psb.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		D1CA3ECA1DD09E570087DB24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1CA3ECD1DD09E570087DB24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1CA3ECF1DD09E570087DB24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1CA3ED51DD09F590087DB24 /* UIImage+Watermark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Watermark.h"; sourceTree = "<group>"; };
+		D1CA3ED61DD09F590087DB24 /* UIImage+Watermark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Watermark.m"; sourceTree = "<group>"; };
+		D1CA3ED81DD09F810087DB24 /* psb.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = psb.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 		D1CA3EBD1DD09E570087DB24 /* WalerMark */ = {
 			isa = PBXGroup;
 			children = (
+				D1CA3ED81DD09F810087DB24 /* psb.jpeg */,
+				D1CA3ED51DD09F590087DB24 /* UIImage+Watermark.h */,
+				D1CA3ED61DD09F590087DB24 /* UIImage+Watermark.m */,
 				D1CA3EC11DD09E570087DB24 /* AppDelegate.h */,
 				D1CA3EC21DD09E570087DB24 /* AppDelegate.m */,
 				D1CA3EC41DD09E570087DB24 /* ViewController.h */,
@@ -138,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1CA3ECE1DD09E570087DB24 /* LaunchScreen.storyboard in Resources */,
+				D1CA3ED91DD09F810087DB24 /* psb.jpeg in Resources */,
 				D1CA3ECB1DD09E570087DB24 /* Assets.xcassets in Resources */,
 				D1CA3EC91DD09E570087DB24 /* Main.storyboard in Resources */,
 			);
@@ -150,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1CA3ED71DD09F590087DB24 /* UIImage+Watermark.m in Sources */,
 				D1CA3EC61DD09E570087DB24 /* ViewController.m in Sources */,
 				D1CA3EC31DD09E570087DB24 /* AppDelegate.m in Sources */,
 				D1CA3EC01DD09E570087DB24 /* main.m in Sources */,

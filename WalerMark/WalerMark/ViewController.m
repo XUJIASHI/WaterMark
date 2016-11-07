@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+    
+    UIImageView *imageView = [[UIImageView alloc] init];
+    imageView.bounds = CGRectMake(0, 0, 200, 300);
+    imageView.center = self.view.center;
+    imageView.image = [[UIImage imageNamed:@"psb.jpeg"] watermarkWithText:@"@copyright walter"];
+    [self.view addSubview:imageView];
 }
 
 - (void)didReceiveMemoryWarning {

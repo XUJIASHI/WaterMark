@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "UIImage+Watermark.h"
 @interface ViewController : UIViewController
 
 
